@@ -1,13 +1,35 @@
 h1{
     text-align: center;
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+p{
+    margin: 0 auto;
+    width: 50%;
+    height: 300px; 
+    border: solid 1px;
+    margin-bottom: 100px;
+    padding: 5px;
+    border-radius: 10px;
+  
 }
 button{
-    display: inline;
+    display: block;
+    margin: auto;
     color: rgb(252, 247, 247);
-    
     background-color: gray;
+    width: 50%;
+    height: 50px; 
+    border-radius: 10px;
+    position: relative;
+   
 }
+
+
