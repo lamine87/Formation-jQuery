@@ -2,19 +2,21 @@ $(document).ready(function(){
     $('h1').css("color","red");
 
     
-    $( "#bouton1" ).click(function() {
-        $("p").html( "Envoyer à Lamine" );
+
+    
+    $( "button" ).click(function() {
+
+        var text_a_inserer = $(this).html()
+        var couleurText = $(this).attr('data-couleur')
+
+
+        text_a_inserer = "Vous avez cliqué sur:"+text_a_inserer;
+
+        $("p").html( text_a_inserer );
+        $("p").css("color",couleurText);
       });
       
-      $( "#bouton2" ).click(function() {
-        $("p").html( "Envoyer à Diarra" );
-      });
-
-      $( ".boutonType1" ).click(function() {
-        $("p").html( "Envoyer à Mlle" );
-      });
-
-      $( ".boutonType2" ).click(function() {
-        $("p").html( "Envoyer à M." );
-      });
+  
+   
+   
 })
