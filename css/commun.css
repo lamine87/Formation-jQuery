@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    width: 100%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    display: inline;
+    color: rgb(252, 247, 247);
+    
+    background-color: gray;
+}
